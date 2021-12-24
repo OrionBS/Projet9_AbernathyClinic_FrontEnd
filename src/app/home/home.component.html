@@ -1,0 +1,9 @@
+<main class="backShadowWhite">
+  <section>
+    <app-search-console (infosMessage)="setInfoMessage($event)"></app-search-console>
+    <app-info-console [infoMessage]="infoMessage"></app-info-console>
+  </section>
+  <section>
+    <app-patient-card (infosMessage)="setInfoMessage($event)" [cardInfos]="1"></app-patient-card>
+  </section>
+</main>

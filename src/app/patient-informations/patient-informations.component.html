@@ -1,0 +1,14 @@
+<main class="backShadowWhite">
+  <section class="row">
+    <app-patient-card [patient]="patient" [cardInfos]="2" (infosMessage)="setInfoMessage($event)"></app-patient-card>
+    <section class="column">
+      <app-info-console [infoMessage]="infoMessage"></app-info-console>
+      <app-diabetes-risk></app-diabetes-risk>
+      <app-notes-history (infosMessage)="setInfoMessage($event)" (patientNoteAdded)="addPatientNoteToArray($event)" [patientInfo]="patient" [cardInfos]="1"></app-notes-history>
+    </section>
+  </section>
+  <section class="row">
+    <app-notes-history *ngFor="let patientNote of patientNotes" [patientNoteProps]="patientNote" [patientInfo]="patient" [cardInfos]="2" (infosMessage)="setInfoMessage($event)"></app-notes-history>
+  </section>
+</main>
+<a routerLink="" class="icon material-icons floating accent">close</a>

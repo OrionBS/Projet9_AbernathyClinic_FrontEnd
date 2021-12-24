@@ -1,0 +1,28 @@
+main {
+  min-width: 99vw;
+  min-height: 100vh;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  display: flex;
+  flex-flow: wrap;
+  gap: 2rem;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+  justify-content: center;
+}
+.floating {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+}

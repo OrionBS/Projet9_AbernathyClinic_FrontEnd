@@ -1,0 +1,52 @@
+button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+button.icon {
+  text-decoration: none;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  &:hover {
+    cursor: pointer;
+    background-color: #e8e8e8;
+    border-radius: 100%;
+  }
+}
+a {
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  background: none;
+  border: none;
+  &:hover {
+    cursor: pointer;
+    color: #5f4ca1;
+  }
+}
+a.icon {
+  text-decoration: none;
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  &:hover {
+    cursor: pointer;
+    background-color: #e8e8e8;
+    border-radius: 100%;
+  }
+}
+input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #b4a7d6;
+  padding: 0.5rem;
+  width: 100%;
+  &:focus {
+    border-color: #8e7cc3;
+  }
+}

@@ -1,0 +1,12 @@
+<main class="backWhite">
+  <p class="fw900 accent">Infos</p>
+  <p class="fw600 warn error" *ngIf="infosMessage == 1">Vérifiez vos paramètres, ou patient inexistant.</p>
+  <p class="fw600 ok error" *ngIf="infosMessage == 2">Le patient a bien été mis à jour.</p>
+  <p class="fw600 warn error" *ngIf="infosMessage == 3">Erreur pendant la mise à jour du patient.</p>
+  <p class="fw600 ok error" *ngIf="infosMessage == 4">Le patient a bien été créé.</p>
+  <p class="fw600 warn error" *ngIf="infosMessage == 5">Erreur pendant la création du patient.</p>
+  <p class="fw600 ok error" *ngIf="infosMessage == 6">La note a bien été mise à jour.</p>
+  <p class="fw600 warn error" *ngIf="infosMessage == 7">Erreur pendant la mise à jour de la note.</p>
+  <p class="fw600 ok error" *ngIf="infosMessage == 8">La note a bien été créé.</p>
+  <p class="fw600 warn error" *ngIf="infosMessage == 9">Erreur pendant la création de la note.</p>
+</main>

@@ -1,0 +1,5 @@
+<form class="backWhite" [formGroup]="searchGroup" (ngSubmit)="searchPatient()">
+  <input formControlName="lastName" class="accent fw800 field1" type="text" placeholder="Nom">
+  <input formControlName="firstName" class="accent fw800 field2" type="text" placeholder="Prénom">
+  <button type="submit" class="backAccent white fw900 button" [disabled]="searchGroup.invalid">Rechercher</button>
+</form>

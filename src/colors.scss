@@ -1,0 +1,48 @@
+.primary {
+  color: #b4a7d6;
+}
+.accent {
+  color: #8e7cc3;
+}
+.warn {
+  color: #c55858;
+}
+.ok {
+  color: #80a380;
+}
+.white {
+  color: #F5F3F6;
+}
+.black {
+  color: #3F3F3F;
+}
+.backPrimary {
+  background-color: #b4a7d6;
+  &:hover {
+    background-color: #8c7cbc;
+  }
+}
+.backAccent {
+  background-color: #8e7cc3;
+  &:hover {
+    background-color: #5f4ca1;
+  }
+}
+.backWarm {
+  background-color: #c55858;
+  &:hover {
+    background-color: #a32d2d;
+  }
+}
+.backWhite {
+  background-color: #F5F3F6;
+}
+.backShadowWhite {
+  background-color: #eeeaef;
+}
+.backBlack {
+  background-color: #3F3F3F;
+}
+.backLightBlack {
+  background-color: #797979;
+}

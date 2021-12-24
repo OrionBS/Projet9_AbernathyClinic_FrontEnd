@@ -1,0 +1,15 @@
+<form class="backWhite" [formGroup]="patientGroup" (ngSubmit)="onSubmit()">
+  <p class="infos accent fw900">{{cardInformations[0]}}</p>
+  <span class="material-icons part1 accent">account_circle</span>
+  <div class="part2">
+    <input formControlName="lastName" class="accent fw800" type="text" placeholder="Nom">
+    <input formControlName="firstName" class="accent fw800" type="text" placeholder="Prénom">
+  </div>
+  <div class="part3">
+    <input formControlName="gender" class="accent fw800" type="text" placeholder="Sexe">
+    <input formControlName="dateOfBirth" class="accent fw800" type="text" placeholder="Naissance (AAAA-MM-JJ)">
+    <input formControlName="address" class="accent fw800" type="text" placeholder="Adresse">
+    <input formControlName="phone" class="accent fw800" type="text" placeholder="Téléphone">
+    <button type="submit" class="backAccent white fw900 button">{{cardInformations[1]}}</button>
+  </div>
+</form>
