@@ -2,13 +2,13 @@
 
 Sprint n° 1,2 & 3 : UI de l'application Mediscreen.
 
-#### Lien Docker : https://hub.docker.com/r/orionbs/mediscreen_patient
+#### Lien Docker : https://hub.docker.com/r/orionbs/mediscreen_front
 
-#### Lien Github : https://github.com/OrionBS/Projet9_AbernathyClinic_Patient
+#### Lien Github : https://github.com/OrionBS/Projet9_AbernathyClinic_FrontEnd
 
 #### Lien Github Note History : https://github.com/OrionBS/Projet9_AbernathyClinic_NoteHistory
 #### Lien Github Diabete Risk : https://github.com/OrionBS/Projet9_AbernathyClinic_DiabeteRisk
-#### Lien Github Front-End : https://github.com/OrionBS/Projet9_AbernathyClinic_Front
+#### Lien Github Patient : https://github.com/OrionBS/Projet9_AbernathyClinic_Patient
 
 ## Pour commencer
 
@@ -21,8 +21,8 @@ Sprint n° 1,2 & 3 : UI de l'application Mediscreen.
 
 ```
 cd /"dossier de téléchargement"/
-git clone https://github.com/OrionBS/Projet9_AbernathyClinic_Front
-cd /Projet9_AbernathyClinic_Front
+git clone https://github.com/OrionBS/Projet9_AbernathyClinic_FrontEnd
+cd /Projet9_AbernathyClinic_FrontEnd
 ```
 
 ### Installation
