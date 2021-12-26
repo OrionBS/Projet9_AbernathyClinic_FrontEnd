@@ -1,3 +1,53 @@
+# Projet n°9 : Abernathy Clinic - Front-End
+
+Sprint n° 1,2 & 3 : UI de l'application Mediscreen.
+
+#### Lien Docker : https://hub.docker.com/r/orionbs/mediscreen_patient
+
+#### Lien Github : https://github.com/OrionBS/Projet9_AbernathyClinic_Patient
+
+#### Lien Github Note History : https://github.com/OrionBS/Projet9_AbernathyClinic_NoteHistory
+#### Lien Github Diabete Risk : https://github.com/OrionBS/Projet9_AbernathyClinic_DiabeteRisk
+#### Lien Github Front-End : https://github.com/OrionBS/Projet9_AbernathyClinic_Front
+
+## Pour commencer
+
+### Pré-requis
+
+- IntelliJ (Environnement de développement)
+- Angular
+
+### Téléchargement
+
+```
+cd /"dossier de téléchargement"/
+git clone https://github.com/OrionBS/Projet9_AbernathyClinic_Front
+cd /Projet9_AbernathyClinic_Front
+```
+
+### Installation
+
+Pensez à intaller les dernières versions de Angular CLI.
+
+## Fabriqué avec
+
+* [IntelliJ Community](https://www.jetbrains.com/idea/download/#section=windows) - Environnement de développement
+
+## Versions
+
+**Dernière version stable :** 1.0
+
+## Auteurs
+Listez le(s) auteur(s) du projet ici !
+* **Orion Beauny** _alias_ [@OrionBS](https://github.com/OrionBS)
+* Tous les [contributeurs](https://github.com/OrionBS/Projet9_AbernathyClinic_Front/contributors)
+
+## License
+
+Ce projet est conçu pour répondre en tant que travail d'étudiant lors d'une soutenance.
+
+
+
 # MediscreenFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
