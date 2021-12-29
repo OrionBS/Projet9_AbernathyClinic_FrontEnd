@@ -16,7 +16,7 @@ export class PatientService {
   }
 
   public readPatient(firstName: string, lastName: string): Observable<any> {
-    return this.http.get(this.url + "?firstName=" + firstName + "&lastName=" + lastName);
+    return this.http.get(this.url + "/name?firstName=" + firstName + "&lastName=" + lastName);
   }
 
   public createPatient(patient: Patient): Observable<any> {

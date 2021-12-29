@@ -1,5 +1,8 @@
 <form class="backWhite" [formGroup]="noteGroup" (ngSubmit)="onSubmit()">
-  <p class="infos accent fw900">{{cardInformations[0]}}</p>
+  <p class="infos accent fw900">
+    {{cardInformations[0]}}
+    <small class="primary fw700" *ngIf="noteGroup.controls['dateOfCreation'].value">{{noteGroup.controls['dateOfCreation'].value | date}}</small>
+  </p>
   <input formControlName="practitionerNote" class="accent fw800 field2" type="text" placeholder="Note....">
   <button type="submit" class="backAccent white fw900 button">{{cardInformations[1]}}</button>
 </form>

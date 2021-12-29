@@ -48,6 +48,7 @@ export class NotesHistoryComponent implements OnInit {
   constructor(private builder: FormBuilder, private patientNotesService: PatientNotesService) {
     this.noteGroup = builder.group({
       patientId: [null],
+      dateOfCreation: [null],
       practitionerNote: [null, Validators.required]
     })
   }
@@ -57,7 +58,6 @@ export class NotesHistoryComponent implements OnInit {
 
   onSubmit(){
     this.infosMessage.emit(0);
-    this.noteGroup.controls['patientId'].setValue(this.patient.id);
     if (this.patientNote) {
       this.patientNotesService.updateNote(this.noteGroup.value, this.patientNote.noteId)
         .subscribe(
@@ -90,6 +90,7 @@ export class NotesHistoryComponent implements OnInit {
   fillForm(patientNote: PatientNote) {
     if (patientNote) {
       this.noteGroup.controls['patientId'].setValue(patientNote.patientId);
+      this.noteGroup.controls['dateOfCreation'].setValue(patientNote.dateOfCreation);
       this.noteGroup.controls['practitionerNote'].setValue(patientNote.practitionerNote);
     }
   }
