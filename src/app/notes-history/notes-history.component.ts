@@ -25,6 +25,7 @@ export class NotesHistoryComponent implements OnInit {
   set patientInfo(patient: Patient) {
     if (patient) {
       this.patient = patient;
+      this.noteGroup.controls['patientId'].setValue(patient.id);
     }
   }
 
